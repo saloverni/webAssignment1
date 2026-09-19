@@ -1,0 +1,33 @@
+body {
+    background: ivory;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+p {
+    color: dimgray;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid limegreen;
+}
+
+img {
+    border-radius: 15px;
+    max-width: 500px;
+}
+
+img {
+    margin-left: 10px;
+}
+
+a:hover {
+    color: limegreen;
+}
+
+.special:hover {
+    color: red;
+}
+
+#header1 {
+    color: greenyellow;
+}
