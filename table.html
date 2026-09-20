@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="css/table.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="grades">Grades</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Mubarak</td>
+            <td>Calculus 2</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>SDP</td>
+            <td>85</td>
+        </tr>
+        <tr class="highlight-row">
+            <td>OOP</td>
+            <td>80</td>
+        </tr>
+    </table>
+
+    <form>
+        <h1 id="form-heading">Form</h1>
+        <label for="name-input">Name</label>
+        <input type="text" name="name" id="name-input" value="">
+        <label for="email-input">Email</label>
+        <input type="text" name="email" id="email-input" value="">
+        <select>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="other">Other</option>
+        </select>
+        <label><input type="radio" name="question" value="Yes">Yes</label>
+        <label><input type="radio" id="no" name="question" value="No">No</label>
+        <textarea rows="4" cols="50"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+th {
+    background-color: gray;
+}
+
+th,
+td,
+table {
+    border: 2px solid #000;
+    padding: 5px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+tr:nth-child(odd) {
+    background-color: wheat;
+}
+
+tr:nth-child(even) {
+    background-color: ivory;
+}
+
+tr.highlight-row {
+    background-color: deeppink;
+}
+
+#grades {
+    text-decoration: underline;
+}
+
+
+form {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: crimson;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+label,
+#form-heading,
+input:not([type="radio"]):not([type="checkbox"]),
+select,
+textarea,
+button {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+button {
+    background-color: magenta;
+    border-radius: 25px;
+
+}
+
+button:hover {
+    background-color: maroon;
+    transition: all 0.2s ease;
+}
